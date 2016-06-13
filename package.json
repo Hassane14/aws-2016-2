@@ -1,0 +1,29 @@
+{
+  "name": "listadecompra",
+  "version": "0.0.1",
+  "description": "A simple Shoping List",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.4.20",
+    "morgan": "^1.7.0"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pafmon/aws-2016-2"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "AWS"
+}
