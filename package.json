@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A simple Shoping List",
   "main": "server.js",
+  "author": "Scotch",
   "scripts": {
     "start": "node server.js"
   },
