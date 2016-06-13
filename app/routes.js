@@ -25,7 +25,7 @@ module.exports = function (app) {
     // create todo and send back all todos after creation
     app.post('/api/todos', function (req, res) {
 
-        // create a todo, information comes from AJAX request from Angular
+        // create
         Todo.create({
             text: req.body.text,
             done: false
@@ -39,7 +39,7 @@ module.exports = function (app) {
 
     });
 
-    // delete a todo
+    // delete
     app.delete('/api/todos/:todo_id', function (req, res) {
         Todo.remove({
             _id: req.params.todo_id
